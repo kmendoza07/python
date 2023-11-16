@@ -85,6 +85,11 @@ class Test:
         self.tvl.volume_down()
         assert self.tvl.__str__() == 'Power = True, Channel = 0, Volume = 0'
 
+        self.tvl.volume_down()
+        assert self.tvl.__str__() == 'Power = True, Channel = 0, Volume = 0'
+
+
+
 
 
 
