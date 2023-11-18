@@ -8,6 +8,9 @@ class Television:
     MAX_CHANNEL:int = 3
 
     def __init__(self) -> None:
+        """
+        Method that creates the class variables
+        """
         self.__status = False
         self.__muted = False
         self.__volume = Television.MIN_VOLUME
