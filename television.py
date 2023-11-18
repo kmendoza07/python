@@ -9,7 +9,7 @@ class Television:
 
     def __init__(self) -> None:
         """
-        Method that creates the objects and their initial values for the Television class
+        Method that creates objects and their initial values for the Television class
         """
         self.__status = False
         self.__muted = False
